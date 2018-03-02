@@ -15,7 +15,7 @@ $("form#display").submit(function(event) {
   function answer(display){
     var arr = [];
     for(i=1; i<=display; i++){
-      // if the number is divisible by 15, write ping pong
+      // if the number is divisible by 15, Display ping pong
       if ( i % 15 === 0) {
         console.log("pingpong")
         arr.push("PING PONG");
