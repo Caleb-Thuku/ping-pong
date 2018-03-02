@@ -1,0 +1,12 @@
+header{
+  background-color: coral;
+  background-size: cover;
+  height:100px;
+  text-align: center;
+}
+#result{
+  display: none;
+}
+col-md-3{
+  color: blue;
+}
