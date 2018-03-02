@@ -32,7 +32,6 @@ $("form#display").submit(function(event) {
         else {
           console.log("conto");
           arr.push(i);
-          //will return i
         }
     };
     return arr;
