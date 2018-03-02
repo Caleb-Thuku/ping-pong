@@ -7,7 +7,7 @@ $("form#display").submit(function(event) {
   var resul = answer(display).toString();
   var result = resul.split(",").join("<br>");
   $(".Push").addClass("res-scroll").append('<li class="res-scroll">'+result+'</li>');
- //End of User Interface Logic
+ //End of User Interface logic
 });
   });
 
