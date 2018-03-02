@@ -20,7 +20,7 @@ $("form#display").submit(function(event) {
         console.log("pingpong")
         arr.push("PING PONG");
         }
-      //if the number is divisible by 3
+      //If the number is divisible by 3
       else if ( i % 3 === 0) {
         arr.push("PING");
         }
