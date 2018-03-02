@@ -24,7 +24,7 @@ $("form#display").submit(function(event) {
       else if ( i % 3 === 0) {
         arr.push("PING");
         }
-        //if the number is divisible by 5
+        //If the number is divisible by 5
         else if ( i % 5 === 0) {
         arr.push("PONG");
         }
