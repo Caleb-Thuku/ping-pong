@@ -28,7 +28,7 @@ $("form#display").submit(function(event) {
         else if ( i % 5 === 0) {
         arr.push("PONG");
         }
-        //if the number is not divisible by anything
+        //If the number is not divisible by anything
         else {
           console.log("conto");
           arr.push(i);
