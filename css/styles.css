@@ -3,10 +3,32 @@ header{
   background-size: cover;
   height:100px;
   text-align: center;
+  font-style: italic;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 30px;
 }
 #result{
   display: none;
 }
-col-md-3{
-  color: blue;
+#side{
+  background-size: cover;
+  line-height: inherit;
+}
+.entering{
+  color: black;
+}
+.Push li{
+  list-style-type: none;
+  overflow: auto;
+}
+.Push{
+  width: 50vw;
+  height:50vh;
+  border: 2px solid white;
+  margin:7%;
+  margin-top:5%;
+  overflow: auto;
+  text-align: left;
+  color: black;
 }
