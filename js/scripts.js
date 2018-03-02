@@ -1,4 +1,4 @@
-//User Interface logic
+//User Interface Logic
 $(document).ready(function() {
 $("form#display").submit(function(event) {
   event.preventDefault();
