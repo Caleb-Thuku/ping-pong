@@ -11,7 +11,7 @@ $("form#display").submit(function(event) {
 });
   });
 
-  //Business Logic
+  //Business Logic.
   function answer(display){
     var arr = [];
     for(i=1; i<=display; i++){
